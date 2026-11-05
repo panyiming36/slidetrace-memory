@@ -1,0 +1,191 @@
+10个任务的连续文字过程
+
+同一记忆库，三页文字/题；采用离线语义桩、假向量和模拟宿主执行/接受信号。
+
+没有调用模型、联网或生成PPT。页面字段来自插件实际取回的记忆。
+
+T01 集团公司与人物介绍
+检查重点：学习三条偏好
+反馈：以后所有PPT用浅色背景、结论式标题，人物介绍页统一用圆形头像。
+
+第一轮（既有记忆）
+p1 [title] title=叙述式标题；background=深色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [people] title=叙述式标题；background=深色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [process] title=叙述式标题；background=深色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=圆形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+项目接受：True
+结束后活跃长期条目：3
+
+T02 季度财务经营回顾
+检查重点：财务专属规则＋本项目深底
+反馈：财务数据以后以万元为单位，亏损用红色；仅这份PPT临时改深色背景。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [data] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [table] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=深色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p2 [data] title=结论式标题；background=深色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p3 [table] title=结论式标题；background=深色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+
+项目接受：True
+结束后活跃长期条目：5
+
+T03 品牌营销团队与活动方案
+检查重点：跨领域复用＋临时要求消退＋噪声
+反馈：收到，谢谢，继续。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=圆形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=圆形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+项目接受：True
+结束后活跃长期条目：5
+
+T04 产品团队人物与能力介绍
+检查重点：圆形明确改成方形
+反馈：以后人物介绍页改用方形头像，原先圆形要求作废。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=圆形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=方形头像；unit=未指定；loss_color=自动；font=22；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=22；footer=无
+
+项目接受：True
+结束后活跃长期条目：5
+
+T05 对外年度财务数据说明
+检查重点：外部受众的金额单位例外
+反馈：对外部受众的财务报告，金额改用元；内部财务报告仍按万元。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p2 [data] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p3 [table] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=22；footer=无
+p2 [data] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=22；footer=无
+p3 [table] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=22；footer=无
+
+项目接受：True
+结束后活跃长期条目：6
+
+T06 内部财务预算审核草案
+检查重点：内部默认恢复＋未接受项目不晋升
+反馈：以后所有PPT改红色背景；这份PPT第三页加内审草稿标记。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p2 [data] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p3 [table] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=红色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p2 [data] title=结论式标题；background=红色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=无
+p3 [table] title=结论式标题；background=红色背景；avatar=默认矩形头像；unit=万元；loss_color=红色；font=22；footer=内审草稿
+
+项目接受：False
+结束后活跃长期条目：6
+
+T07 对外财务业务结果简报
+检查重点：工作反馈后重启恢复＋外部例外持续
+反馈：以后所有PPT正文字号不小于28。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=22；footer=无
+p2 [data] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=22；footer=无
+p3 [table] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=22；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=28；footer=无
+p2 [data] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=28；footer=无
+p3 [table] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=元；loss_color=红色；font=28；footer=无
+
+项目接受：True
+结束后活跃长期条目：7
+
+T08 招聘人物与组织介绍
+检查重点：隔多个项目仍记得＋优先级降低
+反馈：人物介绍页方形头像改成可选偏好，不再是原来的建议优先级。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=方形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=方形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+
+项目接受：True
+结束后活跃长期条目：7
+
+T09 研发团队与人物介绍
+检查重点：待生效修订后忘掉整个工作链
+反馈：先修订为六边形，再明确忘记原偏好及其工作链
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=方形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+
+项目接受：True
+结束后活跃长期条目：6
+
+T10 新部门人物与协作介绍
+检查重点：重新学习旧偏好＋重复要求不膨胀
+反馈：以后人物介绍页重新使用圆形头像；标题继续用结论句。
+
+第一轮（既有记忆）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+
+第二轮（处理本题反馈后）
+p1 [title] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p2 [people] title=结论式标题；background=浅色背景；avatar=圆形头像；unit=未指定；loss_color=自动；font=28；footer=无
+p3 [process] title=结论式标题；background=浅色背景；avatar=默认矩形头像；unit=未指定；loss_color=自动；font=28；footer=无
+
+项目接受：True
+结束后活跃长期条目：7
+
+最终活跃长期记忆：
+
+财务数据 / 金额单位: 万元; scope={"domain": "finance", "kind": "domain"}; priority=should
+
+财务亏损 / 颜色: 红色; scope={"domain": "finance", "kind": "domain"}; priority=should
+
+财务数据 / 金额单位: 元; scope={"audience": "external", "domain": "finance", "kind": "domain"}; priority=should
+
+正文 / 字号: 28; scope={"kind": "global"}; priority=should
+
+页面 / 背景: 浅色背景; scope={"kind": "global"}; priority=should
+
+页面标题 / 措辞: 结论式标题; scope={"kind": "global"}; priority=should
+
+人物头像 / 形状: 圆形头像; scope={"kind": "page_type", "page_type": "people"}; priority=should
